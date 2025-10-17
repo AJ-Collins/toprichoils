@@ -1,48 +1,148 @@
-/* Smooth fade and motion animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Animation keyframes */
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes scale-in {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 /* Animation classes */
-.animate-fade-up {
-  opacity: 0;
-  animation: fadeInUp 1s ease-out forwards;
-}
-.animate-fade-up.delay-200 {
-  animation-delay: 0.2s;
-}
-.animate-fade-up.delay-500 {
-  animation-delay: 0.5s;
-}
 .animate-float {
-  animation: float 3s ease-in-out infinite;
+    animation: float 2s ease-in-out infinite;
+}
+
+/* Hero section animations - these should work immediately */
+.hero-bg .animate-fade-up {
+    opacity: 0;
+    animation: fade-up 0.8s ease-out forwards;
+}
+
+.hero-bg .delay-200 {
+    animation-delay: 0.2s;
+}
+
+.hero-bg .delay-300 {
+    animation-delay: 0.3s;
+}
+
+/* Scroll-triggered animations */
+.product-card {
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.product-card.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Why choose us cards */
+#why .border {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+#why .border.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Contact form */
+#contact .bg-white {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+#contact .bg-white.animate-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Contact info cards */
+#contact .border {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+#contact .border.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Navigation link hover animation enhancement */
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+/* Mobile menu animation */
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+#mobile-menu:not(.hidden) {
+    animation: fade-in 0.3s ease-out;
 }
 
 /* Background overlay */
 .hero-bg {
-  background-image: url('../images/hero-banner.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-image: url('../images/hero-banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-gradient {
-  background: rgba(0, 128, 0, 0.132); /* soft light green overlay */
-  backdrop-filter: blur(0.5px);
+    background: rgba(0, 128, 0, 0.132);
+    backdrop-filter: blur(0.5px);
 }
+
+/* Staggered animations for product cards */
+.product-card:nth-child(1) { transition-delay: 0.1s; }
+.product-card:nth-child(2) { transition-delay: 0.2s; }
+.product-card:nth-child(3) { transition-delay: 0.3s; }
+.product-card:nth-child(4) { transition-delay: 0.4s; }
+.product-card:nth-child(5) { transition-delay: 0.5s; }
+.product-card:nth-child(6) { transition-delay: 0.6s; }
+.product-card:nth-child(7) { transition-delay: 0.7s; }
+.product-card:nth-child(8) { transition-delay: 0.8s; }

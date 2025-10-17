@@ -1,0 +1,48 @@
+/* Smooth fade and motion animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Animation classes */
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+.animate-fade-up.delay-200 {
+  animation-delay: 0.2s;
+}
+.animate-fade-up.delay-500 {
+  animation-delay: 0.5s;
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Background overlay */
+.hero-bg {
+  background-image: url('../images/hero-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-gradient {
+  background: rgba(0, 128, 0, 0.132); /* soft light green overlay */
+  backdrop-filter: blur(0.5px);
+}

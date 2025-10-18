@@ -514,7 +514,7 @@ const productsData = {
         ]
     },
     cutting: {
-        name: 'Cutting Oils',
+        name: 'Specialty Oils',
         subtitle: 'Manufacturing, Metalworking, Fabrication',
         description: 'Precision metalworking fluids for cutting, grinding, and machine operations',
         products: [
@@ -626,20 +626,36 @@ function renderCategories() {
 
     categories.forEach(([key, cat]) => {
         html += `
-            <div class="product-card bg-white p-4 rounded-lg border border-gray-200 text-sm flex flex-col hover:border-green-500 hover:shadow-lg transition-all duration-300 group" style="cursor: pointer;" data-category-id="${key}">
+            <div class="product-card bg-white p-4 rounded-lg border border-gray-200 text-sm flex flex-col hover:border-green-500 hover:shadow-lg transition-all duration-300 group" 
+                style="cursor: pointer;" 
+                data-category-id="${key}">
+
+                <!-- Icon -->
                 <div class="w-full h-10 bg-[#E5F2E5] rounded-lg flex items-center justify-start px-3 mb-3 transform transition-transform duration-300 group-hover:scale-105">
                     <span class="text-2xl">${productIcons[key] || ''}</span>
                 </div>
+
+                <!-- Text content -->
                 <h3 class="text-lg font-extrabold text-gray-900 mb-1 transition-colors duration-300 group-hover:text-green-600">${cat.name}</h3>
                 <p class="text-gray-600 font-bold mb-1">${cat.subtitle}</p>
                 <p class="text-xs text-gray-500 mb-2">${cat.description}</p>
-                <p class="text-gray-600 font-bold text-sm mt-auto">${cat.products.length} products available</p>
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between pt-1 mt-auto flex-nowrap sm:flex-wrap gap-2">
+                    <p class="text-gray-600 font-bold text-sm whitespace-nowrap">
+                        ${cat.products.length} products available
+                    </p>
+                    <button class="text-xs sm:text-sm font-semibold text-gray-700 border border-amber-400 px-2 sm:px-3 py-1 rounded-md transition-colors hover:bg-amber-400 hover:border-amber-500 hover:text-gray-900 whitespace-nowrap">
+                        view details
+                    </button>
+                </div>
             </div>
-        `;
+            `;
+
     });
 
     const contentDiv = document.getElementById('content');
-    contentDiv.className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8';
+    contentDiv.className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8';
     contentDiv.innerHTML = html;
 
     // make sure animation classes are applied (so cards are visible)

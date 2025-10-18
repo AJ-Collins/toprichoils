@@ -616,7 +616,7 @@ const productIcons = {
     gear: '⚙️',
     coolant: '💧', 
     hydraulic: '🛠️',
-    cutting: '🪚', 
+    cutting: '🛢️', 
     brake: '🔩'
 };
 

@@ -323,6 +323,53 @@ const productsData = {
             }
         ]
     },
+    brake: {
+        name: 'Manual Transmission Gear Oils',
+        subtitle: 'All vehicle braking systems',
+        description: 'High-quality brake fluids meeting international standards for safe and reliable braking performance',
+        products: [
+            {
+                id: 'b1',
+                name: 'GEAR RICH OIL GL5',
+                subtitle: 'Premium brake fluid',
+                description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
+                application: 'Cars, motorcycles, light commercial vehicles',
+                sizes: '500ML, 1L',
+                specs: {
+                    'Viscosity at 40°C': '1700 cSt',
+                    'Viscosity at 100°C': '1.5 cSt',
+                    'Viscosity Index': '230',
+                    'Flash Point': '155°C'
+                },
+                performance: ['FMVSS No. 116 DOT 4', 'SAE J1704', 'ISO 4925 Class 4'],
+                benefits: [
+                    'Powerful Braking, Maximum Protection',
+                    'Reliable Performance, Every Stop',
+                    'Engineered for Safety and Control',
+                    'High Performance, High Protection'
+                ]
+            },
+            {
+                id: 'b2',
+                name: 'GEAR RICH OIL',
+                subtitle: '80W90',
+                description: 'Premium multigrade gear oil formulated with high-quality mineral base oils and extreme pressure (EP) additives. Ensures reliable protection in both cold starts and high-heat conditions.',
+                application: 'Heavy-duty differentials, axles, and final drives requiring API GL-5 performance',
+                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                specs: {
+                    standard: '150 cSt',
+                    boiling: '15.7 cSt',
+                    type: '108',
+                    price: '234°C'
+                },
+                performance: ['API GL-5'],
+                benefits: ['Superior frictional performance for smooth operation',
+                'Robust protection against rust, staining, and corrosion',
+                'Fully compatible with standard automotive seals and gaskets',
+                'Strong thermal stability and resistance to oxidation at high temperatures']
+            }
+        ]
+    },
     gear: {
         name: 'Automatic Gear Transmission Fluids',
         subtitle: 'Manual Transmissions, differentials, gearboxes',
@@ -556,53 +603,6 @@ const productsData = {
                 benefits: ['Enhanced precision in grinding', 'Reduces wear on tools']
             }
         ]
-    },
-    brake: {
-        name: 'Manual Transmission Gear Oils',
-        subtitle: 'All vehicle braking systems',
-        description: 'High-quality brake fluids meeting international standards for safe and reliable braking performance',
-        products: [
-            {
-                id: 'b1',
-                name: 'GEAR RICH OIL GL5',
-                subtitle: 'Premium brake fluid',
-                description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
-                application: 'Cars, motorcycles, light commercial vehicles',
-                sizes: '500ML, 1L',
-                specs: {
-                    'Viscosity at 40°C': '1700 cSt',
-                    'Viscosity at 100°C': '1.5 cSt',
-                    'Viscosity Index': '230',
-                    'Flash Point': '155°C'
-                },
-                performance: ['FMVSS No. 116 DOT 4', 'SAE J1704', 'ISO 4925 Class 4'],
-                benefits: [
-                    'Powerful Braking, Maximum Protection',
-                    'Reliable Performance, Every Stop',
-                    'Engineered for Safety and Control',
-                    'High Performance, High Protection'
-                ]
-            },
-            {
-                id: 'b2',
-                name: 'GEAR RICH OIL',
-                subtitle: '80W90',
-                description: 'Premium multigrade gear oil formulated with high-quality mineral base oils and extreme pressure (EP) additives. Ensures reliable protection in both cold starts and high-heat conditions.',
-                application: 'Heavy-duty differentials, axles, and final drives requiring API GL-5 performance',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
-                specs: {
-                    standard: '150 cSt',
-                    boiling: '15.7 cSt',
-                    type: '108',
-                    price: '234°C'
-                },
-                performance: ['API GL-5'],
-                benefits: ['Superior frictional performance for smooth operation',
-                'Robust protection against rust, staining, and corrosion',
-                'Fully compatible with standard automotive seals and gaskets',
-                'Strong thermal stability and resistance to oxidation at high temperatures']
-            }
-        ]
     }
 };
 
@@ -610,14 +610,14 @@ let currentView = 'categories';
 let selectedCategory = null;
 
 const productIcons = {
-    diesel: '🚛',
-    petrol: '🚗',
-    motorcycle: '🏍️',
-    gear: '⚙️',
-    coolant: '💧', 
-    hydraulic: '🛠️',
-    cutting: '🛢️', 
-    brake: '🔩'
+    diesel: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>',
+    petrol: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg>',
+    motorcycle: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bike h-8 w-8 text-[hsl(142,76%,36%)]"><circle cx="18.5" cy="17.5" r="3.5"></circle><circle cx="5.5" cy="17.5" r="3.5"></circle><circle cx="15" cy="5" r="1"></circle><path d="M12 17.5V14l-3-3 4-3 2 3h2"></path></svg>',
+    gear: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cog h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M12 2v2"></path><path d="M12 22v-2"></path><path d="m17 20.66-1-1.73"></path><path d="M11 10.27 7 3.34"></path><path d="m20.66 17-1.73-1"></path><path d="m3.34 7 1.73 1"></path><path d="M14 12h8"></path><path d="M2 12h2"></path><path d="m20.66 7-1.73 1"></path><path d="m3.34 17 1.73-1"></path><path d="m17 3.34-1 1.73"></path><path d="m11 13.73-4 6.93"></path></svg>',
+    coolant: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg>', 
+    hydraulic: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>',
+    cutting: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2ec27e"><path d="M160-120q-17 0-28.5-11.5T120-160q0-17 11.5-28.5T160-200h40v-240h-40q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h40v-240h-40q-17 0-28.5-11.5T120-800q0-17 11.5-28.5T160-840h640q17 0 28.5 11.5T840-800q0 17-11.5 28.5T800-760h-40v240h40q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440h-40v240h40q17 0 28.5 11.5T840-160q0 17-11.5 28.5T800-120H160Zm120-80h400v-240q-17 0-28.5-11.5T640-480q0-17 11.5-28.5T680-520v-240H280v240q17 0 28.5 11.5T320-480q0 17-11.5 28.5T280-440v240Zm200-120q50 0 85-34.5t35-83.5q0-39-22.5-67T480-620q-75 86-97.5 114.5T360-438q0 49 35 83.5t85 34.5ZM280-200v-560 560Z"/></svg>', 
+    brake: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cog h-8 w-8 text-[hsl(142,76%,36%)]"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M12 2v2"></path><path d="M12 22v-2"></path><path d="m17 20.66-1-1.73"></path><path d="M11 10.27 7 3.34"></path><path d="m20.66 17-1.73-1"></path><path d="m3.34 7 1.73 1"></path><path d="M14 12h8"></path><path d="M2 12h2"></path><path d="m20.66 7-1.73 1"></path><path d="m3.34 17 1.73-1"></path><path d="m17 3.34-1 1.73"></path><path d="m11 13.73-4 6.93"></path></svg>'
 };
 
 function renderCategories() {

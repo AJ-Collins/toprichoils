@@ -753,8 +753,7 @@ function viewProduct(categoryId, productId) {
         <div class="bg-white p-8 rounded-lg border border-gray-200">
             <div class="flex flex-col sm:flex-row justify-between gap-8 mb-8">
                 <div class="flex-1">
-                    <p class="text-xl text-gray-600 uppercase mb-1">SAE Grade</p>
-                    <p class="text-sm font-semibold text-amber-500">${product.subtitle}</p>
+                    <p class="text-xl text-gray-600 uppercase mb-1">SAE <span class="text-xl text-amber-500">${product.subtitle}</span></p>
                 </div>
                 <div class="flex-1">
                     <p class="text-xs text-gray-600 uppercase mb-1">Available Sizes</p>

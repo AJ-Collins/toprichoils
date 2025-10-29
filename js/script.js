@@ -94,6 +94,11 @@ const productsData = {
                     'Helps reduce pollutant emissions including HC, NOx, CO, and particulate matter',
                     'Protects emission control systems (DPF, GPF, TWC)',
                     'Supports fuel economy while enabling extended drain intervals'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_25.png",
+                    "images/products/TOPRICH_OILS_30.png",
+                    "images/products/TOPRICH_OIL_23.png"
                 ]
             },
             {
@@ -117,6 +122,11 @@ const productsData = {
                     'Precision oil conservation and engine longevity',
                     'Extended drain intervals with enhanced TBN protection',
                     'Engine revitalization for peak cleanliness and performance'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_30.png",
+                    "images/products/TOPRICH_OIL_21.png",
+                    "images/products/TOPRICH_OIL_23.png"
                 ]
             },
             {
@@ -140,6 +150,9 @@ const productsData = {
                     'Enhanced oil economy and improved engine durability',
                     'Extended drain intervals supported by high TBN retention',
                     'Engine revitalization for superior cleanliness and sustained performance'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_30.png"
                 ]
             },
             {
@@ -163,6 +176,10 @@ const productsData = {
                     'Precision oil conservation and engine longevity',
                     'Extended drain intervals with enhanced TBN protection',
                     'Engine revitalization for peak cleanliness and performance'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_30.png",
+                    "images/products/TOPRICH_OIL_21.png"
                 ]
             }
         ]
@@ -192,7 +209,12 @@ const productsData = {
                     'Enhanced oil economy and improved engine durability',
                     'Extended drain intervals supported by high TBN retention',
                     'Engine revitalization for superior cleanliness and sustained performance'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_5.png",
+                    "images/products/TOPRICH_OIL_13.png",
+                    "images/products/TOPRICH_OIL_23.png"
+                ],
             },
             {
                 id: 'p2',
@@ -213,7 +235,12 @@ const productsData = {
                     'Reduces the need for frequent engine servicing',
                     'Ensures consistent performance even under high temperatures',
                     'Prolongs engine life with cutting-edge wear-reduction technology'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_26.png",
+                    "images/products/TOPRICH_OIL_22.png",
+                    "images/products/TOPRICH_OILS_5.png"
+                ],
             },
             {
                 id: 'p3',
@@ -233,7 +260,12 @@ const productsData = {
                     'Provides long-term oil stability throughout entire engine life cycle',
                     'Protects the engine against rust and corrosion',
                     'Excellent viscosity control features allow fuel economy'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_25.png",
+                    "images/products/TOPRICH_OIL_13.png",
+                    "images/products/TOPRICH_OILS_5.png"
+                ],
             }
         ]
     },
@@ -260,7 +292,13 @@ const productsData = {
                     'Cleanses engine',
                     'Reduces engine overheating',
                     'Long drain intervals'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_15.png",
+                    "images/products/TOPRICH_OILS_13.png",
+                    "images/products/TOPRICH_OILS_12.png",
+                    "images/products/TOPRICH_OILS_10.png"
+                ],
             },
             {
                 id: 'm2',
@@ -280,7 +318,13 @@ const productsData = {
                     'Maximum power output through reduced friction',
                     'Consistent and sustained power delivery',
                     'Exceptional protection and reliability under extreme conditions'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_14.png",
+                    "images/products/TOPRICH_OILS_13.png",
+                    "images/products/TOPRICH_OILS_12.png",
+                    "images/products/TOPRICH_OIL_17.png"
+                ],
             },
             {
                 id: 'm3',
@@ -299,7 +343,13 @@ const productsData = {
                     'Outstanding chemical stability',
                     'Reliable seal compatibility',
                     'Low pour point for year-round and all-weather use'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_11.png",
+                    "images/products/TOPRICH_OIL_16.png",
+                    "images/products/TOPRICH_OIL_36.png",
+                    "images/products/TOPRICH_OIL_17.png"
+                ],
             },
             {
                 id: 'm4',
@@ -319,7 +369,12 @@ const productsData = {
                     'Ensures thermal and oxidation stability with deposit control',
                     'Helps prevent pre-ignition',
                     'Offers reliable corrosion protection'
-                ]
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_18.png",
+                    "images/products/TOPRICH_OILS_10.png",
+                    "images/products/TOPRICH_OILS_11.png"
+                ],
             }
         ]
     },
@@ -347,6 +402,12 @@ const productsData = {
                     'Reliable Performance, Every Stop',
                     'Engineered for Safety and Control',
                     'High Performance, High Protection'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_1.png",
+                    "images/products/TOPRICH_OILS_3.png",
+                    "images/products/TOPRICH_OILS_4.png",
+                    "images/products/TOPRICH_OILS_17.png"
                 ]
             },
             {
@@ -363,10 +424,18 @@ const productsData = {
                     price: '234°C'
                 },
                 performance: ['API GL-5'],
-                benefits: ['Superior frictional performance for smooth operation',
-                'Robust protection against rust, staining, and corrosion',
-                'Fully compatible with standard automotive seals and gaskets',
-                'Strong thermal stability and resistance to oxidation at high temperatures']
+                benefits: [
+                    'Superior frictional performance for smooth operation',
+                    'Robust protection against rust, staining, and corrosion',
+                    'Fully compatible with standard automotive seals and gaskets',
+                    'Strong thermal stability and resistance to oxidation at high temperatures'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_1.png",
+                    "images/products/TOPRICH_OILS_3.png",
+                    "images/products/TOPRICH_OILS_4.png",
+                    "images/products/TOPRICH_OILS_17.png"
+                ]
             }
         ]
     },
@@ -393,6 +462,11 @@ const productsData = {
                     'Excellent low-temperature fluidity ensures smooth gear shifting during cold starts',
                     'Compatible with seals, helping to prevent leaks',
                     'Retains superior lubricating properties under high-temperature conditions'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_19.png",
+                    "images/products/TOPRICH_OILS_2.png",
+                    "images/products/TOPRICH_OILS_29.png"
                 ]
             },
             {
@@ -416,6 +490,11 @@ const productsData = {
                     'Excellent low-temperature flow properties for rapid circulation',
                     'Strong protection against wear, rust, corrosion, and foaming',
                     'Compatible with seal materials in transmission systems'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_30.png",
+                    "images/products/TOPRICH_OILS_2.png",                    
+                    "images/products/TOPRICH_OILS_29.png"
                 ]
             }
         ]
@@ -439,6 +518,10 @@ const productsData = {
                     'Protects against corrosion and rust',
                     'Safe for rubber components',
                     'Prevents foaming or clogging'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_33.png",
+                    "images/products/TOPRICH_OIL_35.png"
                 ]
             },
             {
@@ -455,6 +538,10 @@ const productsData = {
                     'Superior protection against corrosion',
                     'Non-foaming formula',
                     'Prevents radiator clogging'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_34.png",
+                    "images/products/TOPRICH_OIL_35.png"
                 ]
             },
             {
@@ -470,6 +557,13 @@ const productsData = {
                     'Pre-mixed and ready to use',
                     'Provides effective protection down to -36°C',
                     'Non-foaming and prevents radiator clogging'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_23.png",
+                    "images/products/TOPRICH_OILS_24.png",
+                    "images/products/TOPRICH_OILS_19.png",
+                    "images/products/TOPRICH_OILS_27.png",
+                    "images/products/TOPRICH_OILS_26.png"
                 ]
             },
             {
@@ -485,6 +579,14 @@ const productsData = {
                     'Pre-mixed and ready to use',
                     'Provides effective protection down to -18°C',
                     'Non-foaming and prevents radiator clogging'
+                ],
+                images: [
+                    "images/products/TOPRICH_OILS_20.png",
+                    "images/products/TOPRICH_OILS_21.png",
+                    "images/products/TOPRICH_OILS_22.png",
+                    "images/products/TOPRICH_OILS_25.png",
+                    "images/products/TOPRICH_OILS_27.png",
+                    "images/products/TOPRICH_OILS_26.png"
                 ]
             }
         ]
@@ -513,6 +615,10 @@ const productsData = {
                     'Excellent wear protection',
                     'Superior oxidation stability',
                     'Compatible with seals and elastomers'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_27.png",
+                    "images/products/TOPRICH_OILS_7.png"
                 ]
             },
             {
@@ -534,11 +640,15 @@ const productsData = {
                     'Advanced oxidation control allows longer service life',
                     'Maintains viscosity under high pressure and temperature',
                     'Gentle on seals and elastomers, preventing leaks'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_29.png",
+                    "images/products/TOPRICH_OILS_7.png"
                 ]
             },
             {
                 id: 'h3',
-                name: 'HYDRA RICH 68',
+                name: 'HYDRA RICH VG 68',
                 subtitle: 'ISO VG 68',
                 description: 'Heavy-duty hydraulic oil engineered for demanding hydraulic systems operating under high loads and temperatures. Ensures long service life, reduced downtime, and reliable equipment protection.',
                 application: 'Heavy-duty hydraulic systems, high-load applications',
@@ -556,6 +666,10 @@ const productsData = {
                     'Extended life promoting longer drain intervals',
                     'Maintains viscosity under stress',
                     'Seal Protection preventing leaks'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_31.png",
+                    "images/products/TOPRICH_OILS_7.png"
                 ]
             }
         ]
@@ -584,6 +698,9 @@ const productsData = {
                     'Excellent corrosion protection',
                     'Enhanced wear prevention',
                     'Contains zinc for additional hydraulic system protection'
+                ],
+                images: [
+                    "images/products/TOPRICH_OIL_28.png"
                 ]
             },
             {
@@ -600,7 +717,12 @@ const productsData = {
                     price: '$35/L'
                 },
                 performance: ['FMVSS No. 116 DOT 4', 'SAE J1704', 'ISO 4925 Class 4'],
-                benefits: ['Enhanced precision in grinding', 'Reduces wear on tools']
+                benefits: ['Enhanced precision in grinding', 'Reduces wear on tools'],
+                images: [
+                    "images/products/TOPRICH_OILS_13.png",
+                    "images/products/TOPRICH_OILS_12.png",
+                    "images/products/TOPRICH_OILS_11.png"
+                ]
             }
         ]
     }
@@ -714,7 +836,6 @@ function viewCategory(categoryId) {
     document.getElementById('breadcrumb').style.display = 'flex';
     document.getElementById('breadcrumb-text').textContent = category.name;
 }
-
 function viewProduct(categoryId, productId) {
     selectedCategory = categoryId;
     currentView = 'product';
@@ -786,31 +907,57 @@ function viewProduct(categoryId, productId) {
                     </table>
                 </div>
             </div>
-            <div class="mb-6">
-                <h3 class="text-base font-bold text-gray-900 mb-3">Performance Levels</h3>
-                <ul class="space-y-2">
-                    ${(product.performance || []).map(perf => `
-                        <li class="text-sm text-gray-700 flex items-start">
-                            <span class="mr-2">•</span>
-                            <span>${perf}</span>
-                        </li>
-                    `).join('') || '<li class="text-sm text-gray-600">No performance levels specified</li>'}
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-base font-bold text-gray-900 mb-3">Benefits</h3>
-                <ul class="space-y-2">
-                    ${(product.benefits || []).map(benefit => `
-                        <li class="text-sm text-gray-700 flex items-start">
-                            <span class="mr-2">•</span>
-                            <span>${benefit}</span>
-                        </li>
-                    `).join('') || '<li class="text-sm text-gray-600">No benefits specified</li>'}
-                </ul>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-6">
+                <div class="lg:col-span-2 space-y-6">
+                    <div>
+                        <h3 class="text-base font-bold text-gray-900 mb-3">Performance Levels</h3>
+                        <ul class="space-y-2">
+                            ${(product.performance || []).map(perf => `
+                                <li class="text-sm text-gray-700 flex items-start">
+                                    <span class="mr-2">•</span>
+                                    <span>${perf}</span>
+                                </li>
+                            `).join('') || '<li class="text-sm text-gray-600">No performance levels specified</li>'}
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-base font-bold text-gray-900 mb-3">Benefits</h3>
+                        <ul class="space-y-2">
+                            ${(product.benefits || []).map(benefit => `
+                                <li class="text-sm text-gray-700 flex items-start">
+                                    <span class="mr-2">•</span>
+                                    <span>${benefit}</span>
+                                </li>
+                            `).join('') || '<li class="text-sm text-gray-600">No benefits specified</li>'}
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:col-span-1">
+                    ${(product.images && product.images.length > 0) ? `
+                        <div class="relative">
+                            <div class="overflow-hidden mb-3">
+                                <img id="product-image-display" src="${product.images[0]}" alt="${product.name}" class="w-full h-64 object-contain">
+                            </div>
+                            <!-- Thumbnail Gallery -->
+                            ${product.images.length > 1 ? `
+                                <div class="flex gap-2 overflow-x-auto pb-2">
+                                    ${product.images.map((img, idx) => `
+                                        <div class="thumb-img flex-shrink-0 w-20 h-20 rounded-md border-2 ${idx === 0 ? 'border-green-500' : 'border-gray-200'} overflow-hidden cursor-pointer hover:border-green-400 transition-all" onclick="window.changeProductImage('${img}', ${idx})">
+                                            <img src="${img}" alt="${product.name} ${idx + 1}" class="w-full h-full object-cover pointer-events-none">
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    ` : `
+                        <div class="flex items-center justify-center h-64 bg-gray-50 rounded-lg border border-gray-200">
+                            <p class="text-sm text-gray-500">No images available</p>
+                        </div>
+                    `}
+                </div>
             </div>
         </div>
     `;
-
 
     const contentDiv = document.getElementById('content');
     contentDiv.innerHTML = html;
@@ -821,6 +968,26 @@ function viewProduct(categoryId, productId) {
     document.getElementById('breadcrumb').style.display = 'flex';
     document.getElementById('breadcrumb-text').textContent = product.name;
 }
+
+// Global function to change product image (called from inline onclick)
+window.changeProductImage = function(imgSrc, imgIndex) {
+    const imageDisplay = document.getElementById('product-image-display');
+    const allThumbs = document.querySelectorAll('.thumb-img');
+    
+    if (imageDisplay) {
+        imageDisplay.src = imgSrc;
+    }
+    
+    allThumbs.forEach((thumb, idx) => {
+        if (idx === imgIndex) {
+            thumb.classList.remove('border-gray-200');
+            thumb.classList.add('border-green-500');
+        } else {
+            thumb.classList.remove('border-green-500');
+            thumb.classList.add('border-gray-200');
+        }
+    });
+};
 
 function goToCategories() {
     renderCategories();

@@ -808,7 +808,7 @@ function viewCategory(categoryId) {
             style="cursor:pointer; pointer-events:all;" 
             data-product-id="${product.id}">
             <h4 class="text-lg font-extrabold text-green-700 mb-2">${product.name}</h4>
-            <p class="text-sm font-semibold text-amber-400 mb-2">SAE Grade: ${product.subtitle}</p>
+            <p class="text-sm font-semibold text-amber-400 mb-2">SAE ${product.subtitle}</p>
             <p class="text-gray-600 text-sm mb-4">${product.description}</p>
             
             <!-- Bottom section aligned right -->

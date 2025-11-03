@@ -96,7 +96,7 @@ const productsData = {
                     'Supports fuel economy while enabling extended drain intervals'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_23.png",
+                    "images/products_1/Toprich Oils Product Images-01.png",
                 ]
             },
             {
@@ -122,7 +122,7 @@ const productsData = {
                     'Engine revitalization for peak cleanliness and performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_30.png",
+                    "images/products_1/Toprich Oils Product Images-02.png",
                 ]
             },
             {
@@ -148,7 +148,7 @@ const productsData = {
                     'Engine revitalization for superior cleanliness and sustained performance'
                 ],
                 images: [
-                    "images/products/design_1.png"
+                    "images/products_1/Toprich Oils Product Images-03.png"
                 ]
             },
             {
@@ -174,7 +174,7 @@ const productsData = {
                     'Engine revitalization for peak cleanliness and performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_21.png",
+                    "images/products_1/Toprich Oils Product Images-04.png",
                 ]
             }
         ]
@@ -206,7 +206,7 @@ const productsData = {
                     'Engine revitalization for superior cleanliness and sustained performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_26_1.png"
+                    "images/products_1/Toprich Oils Product Images-05.png"
                 ],
             },
             {
@@ -230,7 +230,7 @@ const productsData = {
                     'Prolongs engine life with cutting-edge wear-reduction technology'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_26.png"
+                    "images/products_1/Toprich Oils Product Images-06.png"
                 ],
             },
             {
@@ -253,7 +253,7 @@ const productsData = {
                     'Excellent viscosity control features allow fuel economy'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_25.png"
+                    "images/products_1/Toprich Oils Product Images-07.png"
                 ],
             }
         ]
@@ -283,7 +283,7 @@ const productsData = {
                     'Long drain intervals'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_15.png"
+                    "images/products_1/Toprich Oils Product Images-09.png"
                 ],
             },
             {
@@ -306,7 +306,7 @@ const productsData = {
                     'Exceptional protection and reliability under extreme conditions'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_15_1.png"
+                    "images/products_1/Toprich Oils Product Images-08.png"
                 ],
             },
             {
@@ -328,7 +328,7 @@ const productsData = {
                     'Low pour point for year-round and all-weather use'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_11_1.png"
+                    "images/products_1/Toprich Oils Product Images-10.png"
                 ],
             },
             {
@@ -351,7 +351,7 @@ const productsData = {
                     'Offers reliable corrosion protection'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_18.png"
+                    "images/products_1/Toprich Oils Product Images-11.png"
                 ],
             }
         ]
@@ -364,7 +364,7 @@ const productsData = {
             {
                 id: 'b1',
                 name: 'GEAR RICH OIL GL5',
-                subtitle: 'Premium brake fluid',
+                subtitle: '85W140',
                 description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
                 application: 'Cars, motorcycles, light commercial vehicles',
                 sizes: '5L | 20L',
@@ -382,7 +382,7 @@ const productsData = {
                     'High Performance, High Protection'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_17.png"
+                    "images/products_1/Toprich Oils Product Images-13.png"
                 ]
             },
             {
@@ -406,7 +406,7 @@ const productsData = {
                     'Strong thermal stability and resistance to oxidation at high temperatures'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_3_1.png"
+                    "images/products_1/Toprich Oils Product Images-12.png"
                 ]
             }
         ]
@@ -436,7 +436,7 @@ const productsData = {
                     'Retains superior lubricating properties under high-temperature conditions'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_19.png"
+                    "images/products_1/Toprich Oils Product Images-04.png"
                 ]
             },
             {
@@ -462,7 +462,7 @@ const productsData = {
                     'Compatible with seal materials in transmission systems'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_30.png"
+                    "images/products_1/Toprich Oils Product Images-15.png"
                 ]
             }
         ]
@@ -488,7 +488,7 @@ const productsData = {
                     'Prevents foaming or clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_33.png"
+                    "images/products_1/Toprich Oils Product Images-16.png"
                 ]
             },
             {
@@ -507,7 +507,7 @@ const productsData = {
                     'Prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_34.png"
+                    "images/products_1/Toprich Oils Product Images-17.png"
                 ]
             },
             {
@@ -525,7 +525,7 @@ const productsData = {
                     'Non-foaming and prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_23.png"
+                    "images/products_1/Toprich Oils Product Images-18.png"
                 ]
             },
             {
@@ -534,7 +534,7 @@ const productsData = {
                 subtitle: 'SAE J814C',
                 description: 'Top Rich Tropical Coolant (5% pre-mixed, ready to use). Provides effective protection down to -18°C for tropical and moderate climates.',
                 application: 'All vehicle types in tropical regions',
-                sizes: '4L | 5L',
+                sizes: '1L | 5L',
                 specs: {},
                 performance: ['ASTM D3306-05'],
                 benefits: [
@@ -543,7 +543,7 @@ const productsData = {
                     'Non-foaming and prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_20.png"
+                    "images/products_1/Toprich Oils Product Images-19.png"
                 ]
             }
         ]
@@ -574,7 +574,7 @@ const productsData = {
                     'Compatible with seals and elastomers'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_27.png"
+                    "images/products_1/Toprich Oils Product Images-20.png"
                 ]
             },
             {
@@ -598,7 +598,7 @@ const productsData = {
                     'Gentle on seals and elastomers, preventing leaks'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_29.png"
+                    "images/products_1/Toprich Oils Product Images-21.png"
                 ]
             },
             {
@@ -623,7 +623,7 @@ const productsData = {
                     'Seal Protection preventing leaks'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_31.png"
+                    "images/products_1/Toprich Oils Product Images-22.png"
                 ]
             }
         ]
@@ -654,16 +654,16 @@ const productsData = {
                     'Contains zinc for additional hydraulic system protection'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_28.png"
+                    "images/products_1/Toprich Oils Product Images-24.png"
                 ]
             },
             {
                 id: 'ct2',
                 name: 'TOPRICH DOT 4 BRAKE FLUID',
-                subtitle: 'DOT 4',
+                subtitle: 'SAE J1704',
                 description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
                 application: 'Cars, motorcycles, light commercial vehicles',
-                sizes: '1L | 5L',
+                sizes: '1L | 0.5L',
                 specs: {
                     type: 'Mineral Oil',
                     viscosity: '	1700 cSt',
@@ -673,7 +673,7 @@ const productsData = {
                 performance: ['FMVSS No. 116 DOT 4', 'SAE J1704', 'ISO 4925 Class 4'],
                 benefits: ['Enhanced precision in grinding', 'Reduces wear on tools'],
                 images: [
-                    "images/products/toprich-brake-fluid.png"
+                    "images/products_1/Toprich Oils Product Images-25.png"
                 ]
             }
         ]

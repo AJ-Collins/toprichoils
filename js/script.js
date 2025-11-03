@@ -79,7 +79,7 @@ const productsData = {
                 subtitle: '10W40',
                 description: 'A premium synthetic heavy-duty diesel engine oil engineered to deliver outstanding protection and efficiency in both modern and legacy engines. Designed for severe operating conditions, it supports extended oil drain intervals and improved fuel economy, while helping to maximize engine life and reliability.',
                 application: 'Suitable for modern and legacy diesel engines under severe operating conditions',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '4L | 20L',
                 specs: {
                     'Viscosity at 40°C': '94.5 cSt',
                     'Viscosity at 100°C': '14.5 cSt',
@@ -96,9 +96,7 @@ const productsData = {
                     'Supports fuel economy while enabling extended drain intervals'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_25.png",
-                    "images/products/TOPRICH_OILS_30.png",
-                    "images/products/TOPRICH_OIL_23.png"
+                    "images/products/TOPRICH_OIL_23.png",
                 ]
             },
             {
@@ -107,7 +105,7 @@ const productsData = {
                 subtitle: '15W40',
                 description: 'Premium multi-grade diesel engine oil formulated using advanced technology for medium-sized diesel engines. Suitable for light and heavy-duty commercial vehicles, passenger cars, 4WDs, construction, mining, and agricultural equipment. Compatible with Diesel, Petrol, and LPG-fueled engines.',
                 application: 'Light and heavy-duty commercial vehicles, passenger cars, 4WDs, construction, mining, and agricultural equipment',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '110.3 cSt',
                     'Viscosity at 100°C': '14.5 cSt',
@@ -125,8 +123,6 @@ const productsData = {
                 ],
                 images: [
                     "images/products/TOPRICH_OILS_30.png",
-                    "images/products/TOPRICH_OIL_21.png",
-                    "images/products/TOPRICH_OIL_23.png"
                 ]
             },
             {
@@ -135,7 +131,7 @@ const productsData = {
                 subtitle: '15W40',
                 description: 'High-performance diesel engine oil specifically formulated for heavy-duty trucks and buses equipped with supercharged or turbocharged engines operating over long distances. Engineered for 4th, 6th, and 7th generation commercial vehicles, including Euro 7-compliant engines.',
                 application: 'Heavy-duty trucks and buses with supercharged/turbocharged engines, Euro 7-compliant vehicles',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '110.3 cSt',
                     'Viscosity at 100°C': '14.5 cSt',
@@ -152,7 +148,7 @@ const productsData = {
                     'Engine revitalization for superior cleanliness and sustained performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_30.png"
+                    "images/products/design_1.png"
                 ]
             },
             {
@@ -161,7 +157,7 @@ const productsData = {
                 subtitle: 'SAE 40',
                 description: 'High-performance engine oil formulated with advanced technology for medium-sized diesel engines. Ideal for all Japanese and European vehicles with medium size engines. Designed for engines operating under normal conditions.',
                 application: 'Japanese and European vehicles with medium-sized diesel engines',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '147 cSt',
                     'Viscosity at 100°C': '15.3 cSt',
@@ -178,8 +174,7 @@ const productsData = {
                     'Engine revitalization for peak cleanliness and performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_30.png",
-                    "images/products/TOPRICH_OIL_21.png"
+                    "images/products/TOPRICH_OIL_21.png",
                 ]
             }
         ]
@@ -195,7 +190,7 @@ const productsData = {
                 subtitle: '5W40',
                 description: 'Fully synthetic MID SAPS oil for gasoline and diesel engines (ACEA C3). Reduces emissions, protects emission systems, offers excellent thermal stability, and supports extended oil change intervals.',
                 application: 'Gasoline and diesel passenger cars and light commercial vehicles',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '4L | 20L',
                 specs: {
                     'Viscosity at 40°C': '96 cSt',
                     'Viscosity at 100°C': '14 cSt',
@@ -211,9 +206,7 @@ const productsData = {
                     'Engine revitalization for superior cleanliness and sustained performance'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_5.png",
-                    "images/products/TOPRICH_OIL_13.png",
-                    "images/products/TOPRICH_OIL_23.png"
+                    "images/products/TOPRICH_OIL_26_1.png"
                 ],
             },
             {
@@ -222,7 +215,7 @@ const productsData = {
                 subtitle: '20W50',
                 description: 'Multi-grade engine oil designed for modern gasoline and diesel engines. Suitable for highways and congested city traffic, performs reliably in all seasons. Recommended for all petrol engines (including multi-valve and turbo types) and diesel engines.',
                 application: 'All petrol engines (multi-valve, turbo) and diesel engines in cars and light vans',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '4L | 20L',
                 specs: {
                     'Viscosity at 40°C': '165 cSt',
                     'Viscosity at 100°C': '17.9 cSt',
@@ -237,9 +230,7 @@ const productsData = {
                     'Prolongs engine life with cutting-edge wear-reduction technology'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_26.png",
-                    "images/products/TOPRICH_OIL_22.png",
-                    "images/products/TOPRICH_OILS_5.png"
+                    "images/products/TOPRICH_OIL_26.png"
                 ],
             },
             {
@@ -248,7 +239,7 @@ const productsData = {
                 subtitle: 'SAE 40',
                 description: 'Versatile engine oil suitable for all types of modern and old petrol/diesel engines. Effective regardless of weather extremes, making it reliable for all-year-round use.',
                 application: 'All modern and old petrol/diesel engines',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '4L | 20L',
                 specs: {
                     'Viscosity at 40°C': '147 cSt',
                     'Viscosity at 100°C': '15.3 cSt',
@@ -262,16 +253,14 @@ const productsData = {
                     'Excellent viscosity control features allow fuel economy'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_25.png",
-                    "images/products/TOPRICH_OIL_13.png",
-                    "images/products/TOPRICH_OILS_5.png"
+                    "images/products/TOPRICH_OIL_25.png"
                 ],
             }
         ]
     },
     motorcycle: {
         name: 'Motorcycle Oils',
-        subtitle: 'Motorcycles, Scooters, Tuk-Tuks',
+        subtitle: 'Motorcycles, Tuk-Tuks',
         description: 'Specialized oils for two-wheelers and three-wheelers, offering superior engine and transmission protection',
         products: [
             {
@@ -280,7 +269,7 @@ const productsData = {
                 subtitle: '20W50',
                 description: 'Mineral-based motorcycle oil specially formulated for on-road, four-stroke engines. Enhanced with extreme pressure additives to protect the gearbox and extend gear life.',
                 application: 'On-road 4-stroke motorcycles',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 20L',
                 specs: {
                     'Viscosity at 40°C': '96 cSt',
                     'Viscosity at 100°C': '14 cSt',
@@ -294,10 +283,7 @@ const productsData = {
                     'Long drain intervals'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_15.png",
-                    "images/products/TOPRICH_OILS_13.png",
-                    "images/products/TOPRICH_OILS_12.png",
-                    "images/products/TOPRICH_OILS_10.png"
+                    "images/products/TOPRICH_OILS_15.png"
                 ],
             },
             {
@@ -306,7 +292,7 @@ const productsData = {
                 subtitle: 'SAE 40',
                 description: 'Specially formulated to deliver maximum power output by minimizing friction. Built with cutting-edge technology for exceptional protection under extreme conditions for all 4-stroke engines (70cc-1000cc).',
                 application: 'All 4-stroke engines: 70cc, 100cc, 150cc, 200cc, 650cc, 1000cc',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 20L',
                 specs: {
                     'Viscosity at 40°C': '147 cSt',
                     'Viscosity at 100°C': '15.3 cSt',
@@ -320,10 +306,7 @@ const productsData = {
                     'Exceptional protection and reliability under extreme conditions'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_14.png",
-                    "images/products/TOPRICH_OILS_13.png",
-                    "images/products/TOPRICH_OILS_12.png",
-                    "images/products/TOPRICH_OIL_17.png"
+                    "images/products/TOPRICH_OILS_15_1.png"
                 ],
             },
             {
@@ -332,7 +315,7 @@ const productsData = {
                 subtitle: 'SAE 10W',
                 description: 'Formulated with high viscosity index oils and premium additives, delivers superior anti-wear, anti-rust, and anti-oxidation performance. Ensures excellent chemical stability, seal compatibility, and low pour point.',
                 application: 'Motorcycle shock absorbers',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '500ML | 20L',
                 specs: {
                     'Viscosity at 40°C': '31.96 cSt',
                     'Viscosity at 100°C': '5.58 cSt',
@@ -345,10 +328,7 @@ const productsData = {
                     'Low pour point for year-round and all-weather use'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_11.png",
-                    "images/products/TOPRICH_OIL_16.png",
-                    "images/products/TOPRICH_OIL_36.png",
-                    "images/products/TOPRICH_OIL_17.png"
+                    "images/products/TOPRICH_OILS_11_1.png"
                 ],
             },
             {
@@ -357,7 +337,7 @@ const productsData = {
                 subtitle: 'SAE 20',
                 description: 'Premium lubricant designed for 2-stroke engines with premix or injector lubrication systems. Enhanced with synthetic base oils for superior oil film strength and wear protection. Reduces smoke and deposit formation.',
                 application: 'Scooters, chain saws, outboard engines, lawn mowers, golf carts, and other 2-stroke equipment',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '500ML | 20L',
                 specs: {
                     'Viscosity at 40°C': '48.2 cSt',
                     'Viscosity at 100°C': '7.2 cSt',
@@ -371,9 +351,7 @@ const productsData = {
                     'Offers reliable corrosion protection'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_18.png",
-                    "images/products/TOPRICH_OILS_10.png",
-                    "images/products/TOPRICH_OILS_11.png"
+                    "images/products/TOPRICH_OIL_18.png"
                 ],
             }
         ]
@@ -389,7 +367,7 @@ const productsData = {
                 subtitle: 'Premium brake fluid',
                 description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
                 application: 'Cars, motorcycles, light commercial vehicles',
-                sizes: '500ML, 1L',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '1700 cSt',
                     'Viscosity at 100°C': '1.5 cSt',
@@ -404,9 +382,6 @@ const productsData = {
                     'High Performance, High Protection'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_1.png",
-                    "images/products/TOPRICH_OILS_3.png",
-                    "images/products/TOPRICH_OILS_4.png",
                     "images/products/TOPRICH_OILS_17.png"
                 ]
             },
@@ -416,7 +391,7 @@ const productsData = {
                 subtitle: '80W90',
                 description: 'Premium multigrade gear oil formulated with high-quality mineral base oils and extreme pressure (EP) additives. Ensures reliable protection in both cold starts and high-heat conditions.',
                 application: 'Heavy-duty differentials, axles, and final drives requiring API GL-5 performance',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     standard: '150 cSt',
                     boiling: '15.7 cSt',
@@ -431,10 +406,7 @@ const productsData = {
                     'Strong thermal stability and resistance to oxidation at high temperatures'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_1.png",
-                    "images/products/TOPRICH_OILS_3.png",
-                    "images/products/TOPRICH_OILS_4.png",
-                    "images/products/TOPRICH_OILS_17.png"
+                    "images/products/TOPRICH_OILS_3_1.png"
                 ]
             }
         ]
@@ -450,7 +422,7 @@ const productsData = {
                 subtitle: 'DEXTRON II',
                 description: 'Versatile automatic transmission fluid designed for use in automatic gearboxes and power steering systems requiring Dexron II-D specification. Delivers smooth performance and dependable protection.',
                 application: 'Automatic gearboxes and power steering systems',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '42 cSt',
                     'Viscosity at 100°C': '7.5 cSt',
@@ -464,9 +436,7 @@ const productsData = {
                     'Retains superior lubricating properties under high-temperature conditions'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_19.png",
-                    "images/products/TOPRICH_OILS_2.png",
-                    "images/products/TOPRICH_OILS_29.png"
+                    "images/products/TOPRICH_OIL_19.png"
                 ]
             },
             {
@@ -475,7 +445,7 @@ const productsData = {
                 subtitle: 'DEXTRON III',
                 description: 'Premium semi-synthetic multipurpose transmission fluid for automatic transmissions manufactured post-2005 where Dexron III specification is required. Suitable for power steering systems, torque converters, and hydraulic systems.',
                 application: 'Automatic transmissions (post-2005), power steering systems, torque converters, gearboxes, hydraulic systems',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '57.3 cSt',
                     'Viscosity at 100°C': '9.5 cSt',
@@ -492,9 +462,7 @@ const productsData = {
                     'Compatible with seal materials in transmission systems'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_30.png",
-                    "images/products/TOPRICH_OILS_2.png",                    
-                    "images/products/TOPRICH_OILS_29.png"
+                    "images/products/TOPRICH_OIL_30.png"
                 ]
             }
         ]
@@ -510,7 +478,7 @@ const productsData = {
                 subtitle: 'SAE J814C',
                 description: 'TROPICAL COOLANT (5% pre-mixed, ready to use) is an ethylene glycol-based coolant suitable for all makes and models. Protects water-cooled systems from corrosion and rust, safe for rubber components.',
                 application: 'All vehicle types within tropical regions',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 5L',
                 specs: {},
                 performance: ['API GL-5'],
                 benefits: [
@@ -520,8 +488,7 @@ const productsData = {
                     'Prevents foaming or clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_33.png",
-                    "images/products/TOPRICH_OIL_35.png"
+                    "images/products/TOPRICH_OIL_33.png"
                 ]
             },
             {
@@ -530,7 +497,7 @@ const productsData = {
                 subtitle: 'SAE J814C',
                 description: 'Premium ethylene glycol-based coolant with superior protection. Pre-mixed and ready to use for all vehicle types.',
                 application: 'All vehicle types',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 5L',
                 specs: {},
                 performance: ['API TC', 'JASO FC'],
                 benefits: [
@@ -540,8 +507,7 @@ const productsData = {
                     'Prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_34.png",
-                    "images/products/TOPRICH_OIL_35.png"
+                    "images/products/TOPRICH_OIL_34.png"
                 ]
             },
             {
@@ -550,7 +516,7 @@ const productsData = {
                 subtitle: 'SAE J814C',
                 description: 'Top Rich Antifreeze Coolant (33% pre-mixed, ready to use) is an ethylene glycol-based coolant suitable for all vehicle makes and models. Provides effective protection down to -36°C.',
                 application: 'All vehicle types including petrol and heavy-duty diesel engines',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 5L',
                 specs: {},
                 performance: ['ASTM D3306-05'],
                 benefits: [
@@ -559,11 +525,7 @@ const productsData = {
                     'Non-foaming and prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_23.png",
-                    "images/products/TOPRICH_OILS_24.png",
-                    "images/products/TOPRICH_OILS_19.png",
-                    "images/products/TOPRICH_OILS_27.png",
-                    "images/products/TOPRICH_OILS_26.png"
+                    "images/products/TOPRICH_OILS_23.png"
                 ]
             },
             {
@@ -572,7 +534,7 @@ const productsData = {
                 subtitle: 'SAE J814C',
                 description: 'Top Rich Tropical Coolant (5% pre-mixed, ready to use). Provides effective protection down to -18°C for tropical and moderate climates.',
                 application: 'All vehicle types in tropical regions',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '4L | 5L',
                 specs: {},
                 performance: ['ASTM D3306-05'],
                 benefits: [
@@ -581,12 +543,7 @@ const productsData = {
                     'Non-foaming and prevents radiator clogging'
                 ],
                 images: [
-                    "images/products/TOPRICH_OILS_20.png",
-                    "images/products/TOPRICH_OILS_21.png",
-                    "images/products/TOPRICH_OILS_22.png",
-                    "images/products/TOPRICH_OILS_25.png",
-                    "images/products/TOPRICH_OILS_27.png",
-                    "images/products/TOPRICH_OILS_26.png"
+                    "images/products/TOPRICH_OILS_20.png"
                 ]
             }
         ]
@@ -602,7 +559,7 @@ const productsData = {
                 subtitle: 'ISO VG 32',
                 description: 'Premium anti-wear hydraulic oil formulated from high-quality base oils and advanced additive technology. Designed for excellent protection and reliable performance in hydraulic systems.',
                 application: 'Industrial and mobile hydraulic systems, construction machinery, manufacturing equipment',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '32 cSt',
                     'Viscosity at 100°C': '5.9 cSt',
@@ -617,8 +574,7 @@ const productsData = {
                     'Compatible with seals and elastomers'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_27.png",
-                    "images/products/TOPRICH_OILS_7.png"
+                    "images/products/TOPRICH_OIL_27.png"
                 ]
             },
             {
@@ -627,7 +583,7 @@ const productsData = {
                 subtitle: 'ISO VG 46',
                 description: 'Premium anti-wear hydraulic oil engineered for smooth power transfer, reliable system protection, and extended equipment life in demanding hydraulic applications.',
                 application: 'Demanding hydraulic applications, construction and industrial equipment',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '46 cSt',
                     'Viscosity at 100°C': '7.4 cSt',
@@ -642,8 +598,7 @@ const productsData = {
                     'Gentle on seals and elastomers, preventing leaks'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_29.png",
-                    "images/products/TOPRICH_OILS_7.png"
+                    "images/products/TOPRICH_OIL_29.png"
                 ]
             },
             {
@@ -652,7 +607,7 @@ const productsData = {
                 subtitle: 'ISO VG 68',
                 description: 'Heavy-duty hydraulic oil engineered for demanding hydraulic systems operating under high loads and temperatures. Ensures long service life, reduced downtime, and reliable equipment protection.',
                 application: 'Heavy-duty hydraulic systems, high-load applications',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': '68 cSt',
                     'Viscosity at 100°C': '9.6 cSt',
@@ -668,8 +623,7 @@ const productsData = {
                     'Seal Protection preventing leaks'
                 ],
                 images: [
-                    "images/products/TOPRICH_OIL_31.png",
-                    "images/products/TOPRICH_OILS_7.png"
+                    "images/products/TOPRICH_OIL_31.png"
                 ]
             }
         ]
@@ -685,7 +639,7 @@ const productsData = {
                 subtitle: 'Water Soluble',
                 description: 'High-performance water soluble cutting fluid for metalworking operations. Hydraulic lubricating oil with high viscosity index, enhanced with additives for superior aging resistance, corrosion protection, and wear prevention.',
                 application: 'Cutting, grinding, machining, metalworking operations',
-                sizes: '20L',
+                sizes: '5L | 20L',
                 specs: {
                     'Viscosity at 40°C': 'N/A',
                     'Viscosity at 100°C': 'N/A',
@@ -709,7 +663,7 @@ const productsData = {
                 subtitle: 'DOT 4',
                 description: 'Delivers reliable braking performance under all conditions. Offers protection against rust, corrosion, and vapor lock. Compatible with DOT 3 and DOT 5.1. Ideal for cars, motorcycles, and light commercial vehicles.',
                 application: 'Cars, motorcycles, light commercial vehicles',
-                sizes: '500ML, 1L, 4L, 5L, 20L, Drum (209L)',
+                sizes: '1L | 5L',
                 specs: {
                     type: 'Mineral Oil',
                     viscosity: '	1700 cSt',
@@ -719,9 +673,7 @@ const productsData = {
                 performance: ['FMVSS No. 116 DOT 4', 'SAE J1704', 'ISO 4925 Class 4'],
                 benefits: ['Enhanced precision in grinding', 'Reduces wear on tools'],
                 images: [
-                    "images/products/TOPRICH_OILS_13.png",
-                    "images/products/TOPRICH_OILS_12.png",
-                    "images/products/TOPRICH_OILS_11.png"
+                    "images/products/toprich-brake-fluid.png"
                 ]
             }
         ]
@@ -939,15 +891,7 @@ function viewProduct(categoryId, productId) {
                                 <img id="product-image-display" src="${product.images[0]}" alt="${product.name}" class="w-full h-64 object-contain">
                             </div>
                             <!-- Thumbnail Gallery -->
-                            ${product.images.length > 1 ? `
-                                <div class="flex gap-2 overflow-x-auto pb-2">
-                                    ${product.images.map((img, idx) => `
-                                        <div class="thumb-img flex-shrink-0 w-20 h-20 rounded-md border-2 ${idx === 0 ? 'border-green-500' : 'border-gray-200'} overflow-hidden cursor-pointer hover:border-green-400 transition-all" onclick="window.changeProductImage('${img}', ${idx})">
-                                            <img src="${img}" alt="${product.name} ${idx + 1}" class="w-full h-full object-cover pointer-events-none">
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            ` : ''}
+                            
                         </div>
                     ` : `
                         <div class="flex items-center justify-center h-64 bg-gray-50 rounded-lg border border-gray-200">

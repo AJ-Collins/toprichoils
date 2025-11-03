@@ -888,7 +888,7 @@ function viewProduct(categoryId, productId) {
                     ${(product.images && product.images.length > 0) ? `
                         <div class="relative">
                             <div class="overflow-hidden mb-3">
-                                <img id="product-image-display" src="${product.images[0]}" alt="${product.name}" class="w-full h-64 object-contain">
+                                <img id="product-image-display" src="${product.images[0]}" alt="${product.name}" class="w-full h-96 object-contain">
                             </div>
                             <!-- Thumbnail Gallery -->
                             

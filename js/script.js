@@ -248,7 +248,7 @@ const productsData = {
       {
         id: "p3",
         name: "PEO RICH T-MAX CLASSIC",
-        subtitle: "SAE 40",
+        subtitle: "40",
         description:
           "This is a versatile mineral based engine oil, suitable for all types of modern and old petrol and diesel engines, regardless of the operating conditions. Its effectiveness is not limited by weather extremes, making it a reliable choice for all-year-round use. The unique combination of high-quality oil components makes it a standout product.",
         application: "All modern and old petrol/diesel engines",

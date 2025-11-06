@@ -465,7 +465,7 @@ const productsData = {
           "Compatible with seals, helping to prevent leaks and maintain system integrity",
           "Retains superior lubricating properties and performance even under high-temperature conditions",
         ],
-        images: ["images/products_1/Toprich Oils Product Images-04.png"],
+        images: ["images/products_1/Toprich Oils Product Images-14.png"],
       },
       {
         id: "g2",

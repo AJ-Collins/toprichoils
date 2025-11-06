@@ -162,7 +162,7 @@ const productsData = {
       {
         id: "d4",
         name: "DEO RICH BRONZE",
-        subtitle: "SAE 40",
+        subtitle: "40",
         description:
           "This is a high-performance monograde/mineral based engine oil formulated with advanced technology for medium-sized diesel engines. Ideal for all Japanese and European vehicles with medium size engines. Designed for engines operating under normal conditions, this monograde oil delivers reliable lubrication where a SAE 40-grade product is recommended by the manufacturer.",
         application:

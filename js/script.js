@@ -252,7 +252,7 @@ const productsData = {
         description:
           "This is a versatile mineral based engine oil, suitable for all types of modern and old petrol and diesel engines, regardless of the operating conditions. Its effectiveness is not limited by weather extremes, making it a reliable choice for all-year-round use. The unique combination of high-quality oil components makes it a standout product.",
         application: "All modern and old petrol/diesel engines",
-        sizes: "1L | 5L | 20L | Drum(209L)",
+        sizes: "1L | 4L | 20L | Drum(209L)",
         specs: {
           "Viscosity at 40°C": "147 cSt",
           "Viscosity at 100°C": "15.3 cSt",
@@ -305,7 +305,7 @@ const productsData = {
       {
         id: "m2",
         name: "POWER PLUS 4T",
-        subtitle: "SAE 40",
+        subtitle: "40",
         description:
           "This is specially formulated to deliver maximum power output by minimizing friction and ensuring consistent performance. Reduced friction results in more consistent and sustained power output. Built with cutting-edge technology, it offers exceptional protection and reliability under extreme conditions for all 4 stroke engines (70cc,100cc, 150cc,200cc,650cc & 1000cc)—whether in daily rides, harsh environments, or on the racetrack.",
         application:
@@ -318,7 +318,7 @@ const productsData = {
           "Flash Point": "234°C",
           TBN: "8 mg KOH/g",
         },
-        performance: ["Meets & exceeds Meets API SG; JASO MA/ MA1 Standards"],
+        performance: ["Meets & exceeds API SG; JASO MA/ MA1 Standards"],
         benefits: [
           "It helps keep four-stroke engines running clean.",
           "Enhanced engine protection, preventing wear & tear",
@@ -331,7 +331,7 @@ const productsData = {
       {
         id: "m3",
         name: "TOP RICH SHOCK OIL",
-        subtitle: "SAE 10W",
+        subtitle: "10W",
         description:
           "Formulated with medium viscosity index oils and premium additives. Top Rich Shock Absorber oil delivers superior anti-wear, anti-rust, and anti-oxidation performance. It ensures excellent chemical stability, seal compatibility, and a low pour point for reliable operations across a wide temperature range.",
         application: "Motorcycle shock absorbers",
@@ -355,7 +355,7 @@ const productsData = {
       {
         id: "m4",
         name: "TOP RICH 2T",
-        subtitle: "SAE 20",
+        subtitle: "20",
         description:
           "This is a premium lubricant designed for 2-stroke engines with premix or injector lubrication systems such as scooters, chain saws outboard engines, lawn mowers, golf carts, chain saws, and other two-stroke powered equipment optimized for high RPM operation. Enhanced with synthetic base oils for superior oil film strength and wear protection, it effectively reduces smoke and deposit formation.",
         application:
@@ -390,7 +390,7 @@ const productsData = {
         name: "GEAR RICH OIL GL5",
         subtitle: "85W140",
         description:
-          "This is a high-performance, multigrade gear oil formulated with premium mineral base oils and advanced extreme pressure additives. It delivers excellent low-temperature fluidity for reliable lubrication during cold startups, while maintaining a robust protective oil film under high-temperature and heavy-load conditions",
+          "This is a high-performance, multigrade gear oil formulated with premium mineral base oils and advanced extreme pressure additives. It delivers excellent low-temperature fluidity for reliable lubrication during cold start, while maintaining a robust protective oil film under high-temperature and heavy-load conditions",
         application: "Cars, motorcycles, light commercial vehicles",
         sizes: "500ML | 5L | 20L | Drum(209L)",
         specs: {
@@ -508,7 +508,7 @@ const productsData = {
       {
         id: "c1",
         name: "TOPRICH COOLANT GREEN G48",
-        subtitle: "SAE J814C",
+        subtitle: "J814C",
         description:
           "This is an ethylene glycol-based coolant suitable for all makes and models of vehicles, including petrol and heavy-duty diesel engines. It protects water-cooled systems from corrosion and rust. It is safe for rubber components and prevents foaming or clogging. It is ideal for most passenger and light diesel vehicles within the tropical regions.",
         application: "All vehicle types within tropical regions",
@@ -696,7 +696,7 @@ const productsData = {
       {
         id: "ct1",
         name: "RICH CUTTING OIL",
-        subtitle: "",
+        subtitle: "N/A",
         description:
           "Rich Cutting Oil is a versatile formulation for water-soluble oils that form stable milky emulsions in all water types. It contains emulsifiers, wetting agents, rust inhibitors, mineral oils and biocides to ensure long service life and prevent spoilage. It is designed for medium-cutting operations and provides effective lubrication, cooling, extended tool life, and quality finishes on both ferrous and non-ferrous metals across various machining processes.",
         application: "Cutting, grinding, machining, metalworking operations",
@@ -709,7 +709,7 @@ const productsData = {
           "Flash Point": "210",
           PH: "9.5",
         },
-        performance: ["Meets and exceeds ISO 6743/7, ISO 6743/7"],
+        performance: ["Meets and exceeds ISO 6743/7"],
         benefits: [
           "Delivers efficient machining performance across all metals, even in the most demanding operations",
           "Extends the service life of tools and equipment",
@@ -722,7 +722,7 @@ const productsData = {
       {
         id: "ct2",
         name: "BRAKE FLUID DOT 4",
-        subtitle: "SAE 20",
+        subtitle: "20",
         description:
           "Toprich DOT 4 Brake Fluid delivers reliable braking performance under all conditions. It offers protection against rust, corrosion, and vapor lock. It is Compatible with DOT 3 and DOT 5.1 and is ideal for cars, motorcycles, and light commercial vehicles.",
         application: "Cars, motorcycles, light commercial vehicles",
